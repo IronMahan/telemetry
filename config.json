@@ -1,0 +1,13 @@
+{
+    "settings":[
+        {
+            "plot_size": 1,
+
+            "data": {
+                "Thrust": [0, 1, "b"]
+            },
+
+            "baudrate": 9600
+        }
+    ]
+}

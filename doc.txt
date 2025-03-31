@@ -1,0 +1,3 @@
+"plot_size": 1 -> size: int or list
+
+"Thrust": [0, 1, "b"] -> [index, position(list or integer), "colour"]
