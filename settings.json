@@ -1,0 +1,7 @@
+{
+    "rows": 1,
+    "cols": 3,
+    "vals": {"thrust": 0, "altitude": 1, "Some other shit": 2},
+    "axis": {"thrust": 0, "altitude": 1, "Some other shit": 2},
+    "ylim": {"thrust": [0, 10], "altitude": [0, 1000], "Some other shit": [-10, 10]}
+}
