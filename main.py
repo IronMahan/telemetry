@@ -24,7 +24,7 @@ class App:
         self.settings = self.readSettings()
         self.avalablePorts = self.getPorts()
         self.serialInst = serial.Serial(timeout=1)
-        self.heading = Figlet(font='slant').renderText("VeloFLARE")
+        self.heading = Figlet(font='slant').renderText("FLARE")
         self.headers = ["TITLE", "STATUS"]
     
     
@@ -84,7 +84,7 @@ class App:
                  ["No. of graphs", self.settings['rows'] * self.settings['cols']]]
         # print(self.settings, "hhh")
         print(self.heading)
-        print("VeloCET Flight Logging and Remote Evaluation software\n")
+        print("Flight Logging and Remote Evaluation software\n")
         print(tabulate(table, self.headers, tablefmt="double_grid"))
     
 
